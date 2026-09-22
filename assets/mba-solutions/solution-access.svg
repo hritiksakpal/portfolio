@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#f1f1ed"/>
+  <rect x="55" y="35" width="1090" height="530" rx="22" fill="#ffffff" stroke="#deded8"/>
+  <rect x="55" y="35" width="1090" height="68" rx="22" fill="#ffffff"/>
+  <text x="94" y="77" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#161616">Managerial Economics</text>
+  <line x1="80" y1="103" x2="1120" y2="103" stroke="#deded8"/>
+  <rect x="305" y="145" width="590" height="305" rx="22" fill="#ffffff" stroke="#deded8"/>
+  <circle cx="600" cy="197" r="26" fill="#ecebff"/>
+  <text x="592" y="205" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#3f3cfa">✓</text>
+  <text x="600" y="248" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#161616">Solution is ready</text>
+  <text x="600" y="278" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#656565">Choose how you want to read the solved answers.</text>
+  <rect x="420" y="315" width="160" height="46" rx="12" fill="#151515"/>
+  <text x="500" y="344" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#ffffff">View Solution</text>
+  <rect x="600" y="315" width="160" height="46" rx="12" fill="#ffffff" stroke="#cfcfca"/>
+  <text x="680" y="344" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="700" fill="#161616">Download</text>
+  <text x="600" y="405" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#888">The student can continue reading or keep a copy for revision.</text>
+</svg>
