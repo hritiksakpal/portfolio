@@ -27,6 +27,18 @@ footer{padding:38px 0 54px;color:#777;font-size:13px}.foot{display:flex;justify-
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}.reveal.on{opacity:1;transform:none}
 @media(max-width:900px){.project-inner{grid-template-columns:1fr}.featured,.side,.two{grid-column:span 12}.process{grid-template-columns:1fr 1fr}.links{gap:14px}.hero{padding-top:68px}}
 @media(max-width:620px){.navin{height:64px}.links{display:none}.hero h1{font-size:52px}.hero p{font-size:17px}.section{padding:46px 0}.case-grid{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr}.role{flex-direction:column;gap:6px}}
+
+.profile-row{display:flex;align-items:center;gap:14px;margin-top:26px}
+.profile-image{width:72px;height:72px;border-radius:50%;object-fit:cover;display:block;border:1px solid var(--line);background:#fff;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.profile-copy strong{display:block;font-size:15px;letter-spacing:-.02em}
+.profile-copy span{display:block;margin-top:3px;color:#777;font-size:12px}
+.background-grid,.credentials-layout{grid-template-columns:1.15fr .85fr}
+.project-media{position:relative;width:100%;aspect-ratio:16/9;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:linear-gradient(135deg,#f0efff,#ffffff)}
+.project-media img{width:100%;height:100%;display:block;object-fit:cover}
+.project-media.placeholder{display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+.project-media.placeholder .media-placeholder{color:#777;font-size:13px;line-height:1.5}
+.project-media.placeholder .media-placeholder strong{display:block;color:#161616;font-size:16px;margin-bottom:4px}
+@media(max-width:900px){.background-grid,.credentials-layout{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -35,8 +47,9 @@ footer{padding:38px 0 54px;color:#777;font-size:13px}.foot{display:flex;justify-
 <section class="hero wrap reveal">
   <div class="eyebrow"><i></i> Open to Product Analyst / APM opportunities</div>
   <h1>Product thinking for <span>real-world problems.</span></h1>
+  <div class="profile-row"><img class="profile-image" src="https://avatars.githubusercontent.com/u/251476226?v=4" alt="Hritik Sakpal"><div class="profile-copy"><strong>Hritik Sakpal</strong><span>Product Analyst · Business Analyst · Product Builder</span></div></div>
   <p>I’m Hritik Sakpal — a Product & Business Analyst with an MBA in Business Analytics and a BSc-IT background. I turn ambiguous business problems into structured product solutions, clear requirements, and data-informed decisions.</p>
-  <div class="hero-actions"><a class="btn primary" href="#work">See my product work ↓</a><a class="btn" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn" href="mailto:hritik.sk01@gmail.com">Email me</a></div>
+  <div class="hero-actions"><a class="btn primary" href="#work">See my product work ↓</a><a class="btn" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn" href="mailto:imhritiksakpal@gmail.com">Email me</a></div>
   <div class="strip"><span class="pill">Product Discovery</span><span class="pill">PRDs & User Stories</span><span class="pill">Jira / Agile / Scrum</span><span class="pill">Business Analysis</span><span class="pill">Product Analytics</span><span class="pill">UX & Workflows</span></div>
 </section>
 
@@ -46,21 +59,21 @@ footer{padding:38px 0 54px;color:#777;font-size:13px}.foot{display:flex;justify-
     <article class="card project reveal">
       <div class="project-inner">
         <div class="project-copy"><div class="section-kicker">Flagship case study</div><h3>Notifying.in</h3><p>0→1 event discovery and notification platform for Indian users. Product work spans event/state/category systems, notifications, admin operations, monetisation and the SEO/GEO/AEO layer.</p><div class="tags"><span class="tag">0→1 Product</span><span class="tag">Notifications</span><span class="tag">Admin Systems</span><span class="tag">Monetisation</span><span class="tag">SEO/GEO/AEO</span></div><div class="hero-actions" style="margin-top:20px"><a class="btn primary" href="https://notifying.in" target="_blank" rel="noreferrer">Visit product ↗</a><a class="btn" href="#notifying-case">Case study ↓</a></div></div>
-        <div class="visual"><div class="visual-box"><div class="visual-title">Product system</div><div class="metric">Discover → Subscribe → Notify</div><div class="bar w1"></div><div class="bar w2"></div><div class="bar w3"></div><div class="mock-grid"><div class="mock purple"></div><div class="mock"></div><div class="mock dark"></div><div class="mock"></div><div class="mock purple"></div><div class="mock"></div></div></div></div>
+        <div class="visual"><div class="project-media placeholder" data-image="assets/projects/notifying-in.jpg" data-alt="Notifying.in project screenshot"><div class="media-placeholder"><strong>Notifying.in screenshot</strong>Drop your 16:9 / laptop screenshot into <code>assets/projects/notifying-in.jpg</code></div></div></div>
       </div>
     </article>
 
     <article class="card project reveal">
       <div class="project-inner">
         <div class="project-copy"><div class="section-kicker">Consumer product</div><h3>FreeSplit</h3><p>Expense-splitting product focused on making shared spending easier to divide, understand and settle. The portfolio case study will focus on product logic, user flows, requirements and edge cases.</p><div class="tags"><span class="tag">User Flows</span><span class="tag">Product Logic</span><span class="tag">Requirements</span><span class="tag">UX</span></div><div class="hero-actions" style="margin-top:20px"><a class="btn primary" href="https://freesplit.in" target="_blank" rel="noreferrer">Visit product ↗</a><a class="btn" href="#freesplit-case">Case study ↓</a></div></div>
-        <div class="visual"><div class="visual-box"><div class="visual-title">Core journey</div><div class="metric">Group → Split → Settle</div><div class="bar w3"></div><div class="bar w1"></div><div class="bar w2"></div><div class="mock-grid"><div class="mock dark"></div><div class="mock purple"></div><div class="mock"></div><div class="mock"></div><div class="mock dark"></div><div class="mock purple"></div></div></div></div>
+        <div class="visual"><div class="project-media placeholder" data-image="assets/projects/freesplit.jpg" data-alt="FreeSplit project screenshot"><div class="media-placeholder"><strong>FreeSplit screenshot</strong>Drop your 16:9 / laptop screenshot into <code>assets/projects/freesplit.jpg</code></div></div></div>
       </div>
     </article>
 
     <article class="card project reveal">
       <div class="project-inner">
         <div class="project-copy"><div class="section-kicker">Education / content product</div><h3>MBA Solutions Hub</h3><p>An academic support product built around the problem of helping MBA students discover organised question papers and solutions quickly, with a clear content hierarchy and monetisation model.</p><div class="tags"><span class="tag">User Pain Points</span><span class="tag">Information Architecture</span><span class="tag">UX</span><span class="tag">Monetisation</span></div><div class="hero-actions" style="margin-top:20px"><a class="btn" href="#mba-case">Case study ↓</a></div></div>
-        <div class="visual"><div class="visual-box"><div class="visual-title">Information architecture</div><div class="metric">Semester → Subject → Paper</div><div class="bar w1"></div><div class="bar w2"></div><div class="bar w3"></div><div class="mock-grid"><div class="mock purple"></div><div class="mock"></div><div class="mock dark"></div><div class="mock"></div><div class="mock purple"></div><div class="mock"></div></div></div></div>
+        <div class="visual"><div class="project-media placeholder" data-image="assets/projects/mba-solutions.jpg" data-alt="MBA Solutions Hub project screenshot"><div class="media-placeholder"><strong>MBA Solutions Hub screenshot</strong>Drop your 16:9 / laptop screenshot into <code>assets/projects/mba-solutions.jpg</code></div></div></div>
       </div>
     </article>
   </div>
@@ -80,13 +93,31 @@ footer{padding:38px 0 54px;color:#777;font-size:13px}.foot{display:flex;justify-
 
 <section id="approach" class="section wrap"><div class="section-head reveal"><div><div class="section-kicker">03 / Product approach</div><h2>How I work.</h2></div><p class="section-lead">A practical product loop that connects user needs, business objectives, technology and evidence.</p></div><div class="process reveal"><div class="step"><b>01</b><strong>Understand</strong><span>Problem, user, business context</span></div><div class="step"><b>02</b><strong>Analyse</strong><span>Research, workflows, evidence</span></div><div class="step"><b>03</b><strong>Define</strong><span>PRD, stories, acceptance criteria</span></div><div class="step"><b>04</b><strong>Build</strong><span>Collaborate with design & tech</span></div><div class="step"><b>05</b><strong>Measure</strong><span>Metrics, feedback, iteration</span></div></div></section>
 
-<section id="experience" class="section wrap"><div class="section-head reveal"><div><div class="section-kicker">04 / Background</div><h2>Experience & foundation.</h2></div><p class="section-lead">Business analysis, product analysis and a technical foundation in IT.</p></div><div class="grid"><article class="card experience featured reveal"><div class="role"><div><h3>Associate Product Analyst</h3><p>Disclosure 360 Solution Pvt. Ltd. · Full time</p></div><div class="date">Oct 2025 — Present</div></div><div class="list"><div class="list-item"><strong>Product execution</strong><span>Jira, Scrum meetings, product logic and PRD documentation.</span></div><div class="list-item"><strong>Cross-functional work</strong><span>Translate business/product needs into structured requirements and coordinate with technical teams.</span></div></div></article><aside class="card mini side reveal"><div class="section-kicker">Education</div><h3>MBA in Business Analytics</h3><p>Sinhgad Institute of Business Administration & Computer Application · 2023–2025 · CGPA 7.18</p><h3 style="margin-top:22px">BSc in Information Technology</h3><p>The SIA College of Higher Education · 2018–2022 · 64.49%</p><div class="tags"><span class="tag">Business Analytics</span><span class="tag">Information Technology</span></div></aside></div></section>
+<section id="experience" class="section wrap"><div class="section-head reveal"><div><div class="section-kicker">04 / Background</div><h2>Experience & foundation.</h2></div><p class="section-lead">Business analysis, product analysis and a technical foundation in IT.</p></div><div class="grid background-grid"><article class="card experience reveal"><div class="role"><div><h3>Associate Product Analyst</h3><p>Disclosure 360 Solution Pvt. Ltd. · Full time</p></div><div class="date">Oct 2025 — Apr 2026</div></div><div class="list"><div class="list-item"><strong>Product execution</strong><span>Jira, Scrum meetings, product logic and PRD documentation.</span></div><div class="list-item"><strong>Cross-functional work</strong><span>Translate business/product needs into structured requirements and coordinate with technical teams.</span></div></div></article><aside class="card mini education-card reveal"><div class="section-kicker">Education</div><h3>MBA in Business Analytics</h3><p>Sinhgad Institute of Business Administration & Computer Application · 2023–2025 · CGPA 7.18</p><h3 style="margin-top:22px">BSc in Information Technology</h3><p>The SIA College of Higher Education · 2018–2022 · 64.49%</p><div class="tags"><span class="tag">Business Analytics</span><span class="tag">Information Technology</span></div></aside></div></section>
 
-<section class="section wrap"><div class="grid"><article class="card mini featured reveal"><div class="section-kicker">Skills</div><div class="list"><div class="list-item"><strong>Product</strong><span>Requirements · PRDs · User Stories · Backlog · Jira · Agile/Scrum · Product Documentation</span></div><div class="list-item"><strong>Analysis</strong><span>Business Analysis · Process Analysis · Market & Competitor Analysis · Product Analytics</span></div><div class="list-item"><strong>Tools</strong><span>Excel · Power BI · PowerPoint · Jira</span></div></div></article><article class="card mini side reveal"><div class="section-kicker">Credentials</div><div class="list"><div class="list-item"><strong>Google Digital Marketing Certification</strong><span>Digital marketing foundations</span></div><div class="list-item"><strong>TCS iON Career Edge</strong><span>Young Professional / employability programme</span></div><div class="list-item"><strong>Leadership</strong><span>MBA Placement Coordinator · event hosting & professional workshops</span></div></div></article></div></section>
+<section class="section wrap"><div class="grid credentials-layout"><article class="card mini reveal"><div class="section-kicker">Skills</div><div class="list"><div class="list-item"><strong>Product</strong><span>Requirements · PRDs · User Stories · Backlog · Jira · Agile/Scrum · Product Documentation</span></div><div class="list-item"><strong>Analysis</strong><span>Business Analysis · Process Analysis · Market & Competitor Analysis · Product Analytics</span></div><div class="list-item"><strong>Tools</strong><span>Excel · Power BI · PowerPoint · Jira</span></div></div></article><article class="card mini reveal"><div class="section-kicker">Credentials</div><div class="list"><div class="list-item"><strong>Google Digital Marketing Certification</strong><span>Digital marketing foundations</span></div><div class="list-item"><strong>TCS iON Career Edge</strong><span>Young Professional / employability programme</span></div><div class="list-item"><strong>Leadership</strong><span>MBA Placement Coordinator · event hosting & professional workshops</span></div></div></article></div></section>
 
-<section id="contact" class="section wrap"><div class="cta reveal"><div class="section-kicker" style="color:#b9b7ff">05 / Contact</div><h2>Let’s talk product.</h2><p>I’m interested in Product Analyst and Associate Product Manager opportunities where I can combine business analysis, product execution, analytics and technical understanding.</p><div class="hero-actions"><a class="btn" href="mailto:hritik.sk01@gmail.com">hritik.sk01@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></section>
+<section id="contact" class="section wrap"><div class="cta reveal"><div class="section-kicker" style="color:#b9b7ff">05 / Contact</div><h2>Let’s talk product.</h2><p>I’m interested in Product Analyst and Associate Product Manager opportunities where I can combine business analysis, product execution, analytics and technical understanding.</p><div class="hero-actions"><a class="btn" href="mailto:imhritiksakpal@gmail.com">imhritiksakpal@gmail.com</a><a class="btn" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a></div></div></section>
 </main>
 <footer><div class="wrap foot"><span>© 2026 Hritik Sakpal</span><span>Product Analyst · Business Analyst · Product Builder</span></div></footer>
-<script>const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));</script>
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+document.querySelectorAll('.project-media[data-image]').forEach(media=>{
+  const src=media.dataset.image;
+  const alt=media.dataset.alt || 'Project screenshot';
+  const img=new Image();
+  img.onload=()=>{
+    media.classList.remove('placeholder');
+    media.innerHTML='';
+    img.alt=alt;
+    img.loading='lazy';
+    media.appendChild(img);
+  };
+  img.onerror=()=>{};
+  img.src=src;
+});
+</script>
 </body>
 </html>
