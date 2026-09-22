@@ -1,0 +1,23 @@
+name: Notify search engines
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify IndexNow
+        env:
+          INDEXNOW_KEY: a7d3c91e4f5b8a62c0d1e9f7b4a6c3d8
+          SITE_URL: https://hritiksakpal.github.io/portfolio/
+          KEY_LOCATION: https://hritiksakpal.github.io/portfolio/a7d3c91e4f5b8a62c0d1e9f7b4a6c3d8.txt
+        run: |
+          curl --fail-with-body --silent --show-error \
+            --get "https://api.indexnow.org/indexnow" \
+            --data-urlencode "url=$SITE_URL" \
+            --data-urlencode "key=$INDEXNOW_KEY" \
+            --data-urlencode "keyLocation=$KEY_LOCATION"
