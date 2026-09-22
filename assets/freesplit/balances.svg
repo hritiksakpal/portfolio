@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f3f4f6"/>
+  <rect x="350" y="28" width="500" height="704" rx="24" fill="#fff" stroke="#dce1e8" stroke-width="2"/>
+  <rect x="350" y="28" width="500" height="72" rx="24" fill="#10182d"/><rect x="350" y="76" width="500" height="24" fill="#10182d"/>
+  <text x="382" y="72" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">GOA 2026</text>
+  <rect x="378" y="128" width="444" height="46" rx="13" fill="#eef2f7"/>
+  <rect x="384" y="134" width="216" height="34" rx="10" fill="#fff"/><text x="492" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#10182d">Balances Overview</text>
+  <text x="708" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">Expenses Ledger</text>
+  <rect x="378" y="192" width="444" height="126" rx="18" fill="#fff" stroke="#10182d" stroke-width="1.5"/>
+  <text x="600" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#607089">TOTAL EVENT COST</text>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="800" fill="#10182d">₹5500.00</text>
+  <rect x="378" y="337" width="444" height="48" rx="13" fill="#f6f8fb" stroke="#dce1e8"/>
+  <text x="600" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="800" fill="#10182d">How to Settle Up</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="378" y="400" width="444" height="82" fill="#fff" stroke="#dce1e8"/>
+    <text x="396" y="427" font-size="13" font-weight="700" fill="#ff493e">Sunny</text><text x="440" y="427" font-size="13" fill="#10182d">owes</text>
+    <text x="396" y="456" font-size="20" font-weight="800" fill="#10182d">₹1375.00</text><text x="512" y="456" font-size="13" fill="#00b67a">to Hritik</text>
+    <rect x="688" y="426" width="118" height="30" rx="10" fill="#10c47a"/><text x="747" y="446" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Pay UPI</text>
+    <rect x="696" y="460" width="110" height="27" rx="10" fill="#eef2f7"/><text x="751" y="478" text-anchor="middle" font-size="11" font-weight="700" fill="#10182d">Mark Settled</text>
+    <rect x="378" y="482" width="444" height="82" fill="#fff" stroke="#dce1e8"/>
+    <text x="396" y="509" font-size="13" font-weight="700" fill="#ff493e">Suraj</text><text x="440" y="509" font-size="13" fill="#10182d">owes</text>
+    <text x="396" y="538" font-size="20" font-weight="800" fill="#10182d">₹250.00</text><text x="512" y="538" font-size="13" fill="#00b67a">to Hritik</text>
+    <rect x="696" y="530" width="110" height="27" rx="10" fill="#eef2f7"/><text x="751" y="548" text-anchor="middle" font-size="11" font-weight="700" fill="#10182d">Mark Settled</text>
+    <rect x="378" y="564" width="444" height="82" rx="0 0 16 16" fill="#fff" stroke="#dce1e8"/>
+    <text x="396" y="591" font-size="13" font-weight="700" fill="#ff493e">Suraj</text><text x="440" y="591" font-size="13" fill="#10182d">owes</text>
+    <text x="396" y="620" font-size="20" font-weight="800" fill="#10182d">₹1125.00</text><text x="512" y="620" font-size="13" fill="#00b67a">to Raj</text>
+    <rect x="696" y="612" width="110" height="27" rx="10" fill="#eef2f7"/><text x="751" y="630" text-anchor="middle" font-size="11" font-weight="700" fill="#10182d">Mark Settled</text>
+  </g>
+</svg>
