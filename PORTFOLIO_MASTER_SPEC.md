@@ -360,3 +360,33 @@ Screenshot descriptions must use simple, direct language that a recruiter can un
 - notifying-in.html: 43a40e305031545827cdd388a338013cc83a6889
 - case-study.css: 34ed1da4293a4848be90d87beb8905859a78598d
 - Screenshots embedded: 14
+
+
+## 13. MBA SOLUTIONS HUB — SCREEN / COPY LOCK
+
+The MBA Solutions Hub case study must keep the product goal clear:
+
+> **Help students find previous-year solved question papers so they can refer to them and study for exams.**
+
+### Product-screen order
+Use the main product screen first, then show the simple study flow:
+1. **Main screen** — start with the exam material needed.
+2. **Question paper list** — find previous-year papers in one place.
+3. **Question paper** — open the paper and read the questions.
+4. **Solution access** — choose how to view the solved answers.
+5. **Unlock step** — complete a short access step to open the solution.
+
+### Screenshot / screen-description language rule
+All visible descriptions, captions and alt text for MBA Solutions Hub screens must be:
+- short;
+- plain English;
+- easy for a recruiter to understand at a glance.
+
+Prefer wording such as **find, open, read, view, choose, access, study, previous-year paper, solved answers**.
+
+Avoid dense product jargon, long explanations, or clever marketing language.
+
+### Content priority
+- Previous-year solved papers and exam preparation are the **main product value**.
+- Information architecture and navigation explain how students find the material.
+- Monetisation is a **supporting business layer**, not the main purpose of the product.
