@@ -1,15 +1,27 @@
-# Portfolio project images
+# Portfolio assets
 
-Add your real project screenshots here. The homepage is already wired to these filenames:
+## Profile photo
+
+Upload your own profile photo at:
+
+`assets/profile.jpg`
+
+The homepage is configured to use this local file first. If it is missing, it temporarily falls back to the GitHub profile avatar so the page does not show a broken image.
+
+Recommended profile image:
+- Square image, ideally 800×800 or larger
+- JPG or PNG
+- Clear professional headshot
+- Keep the subject centered
+
+When replacing the same `profile.jpg` file, the homepage cache-buster is currently `?v=2`. If GitHub Pages still shows an older image after deployment, increment that number in `index.html` (for example, `?v=3`).
+
+## Project screenshots
+
+Add your real 16:9 laptop/browser screenshots here:
 
 - `assets/projects/notifying-in.jpg`
 - `assets/projects/freesplit.jpg`
 - `assets/projects/mba-solutions.jpg`
 
-## Recommended image size
-
-Use a laptop/browser screenshot in **16:9**. Good sizes are **1366×768**, **1440×810**, or **1920×1080**.
-
-The homepage keeps the image area at a true 16:9 ratio and uses `object-fit: cover`, so the screenshot stays clean and responsive.
-
-To replace a screenshot, upload the new image with the exact filename above. No HTML edit is required.
+Recommended sizes: 1366×768, 1440×810, or 1920×1080.
