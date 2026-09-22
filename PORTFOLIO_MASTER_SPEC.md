@@ -274,3 +274,54 @@ The corresponding HTML structure defines the homepage order as navigation → he
 Content should change to accurately represent Hritik Sakpal.
 
 The design should **not** change unless the user explicitly asks for a design change.
+
+## 9. CURRENT CODE LOCK — 2026-09-22
+
+The current portfolio code is the active implementation baseline. Future changes must start from the latest version of these files and must not revive older portfolio designs.
+
+### Current source-of-truth files
+- index.html — current homepage implementation and SEO/entity markup.
+- assets/profile.jpg — canonical personal profile image source for the homepage.
+- robots.txt — public crawler access policy and sitemap reference.
+- sitemap.xml — canonical homepage sitemap.
+- llms.txt — optional machine-readable portfolio summary for services that support it.
+- .github/workflows/indexnow.yml — automatic IndexNow URL notification on main-branch changes.
+
+### Current index.html implementation lock
+- Current design remains the light reference-based system already approved by the user.
+- Do not redesign the visual system unless explicitly requested.
+- The profile photo source is assets/profile.jpg?v=2 with a GitHub avatar fallback only when the local file is unavailable.
+- The page includes canonical URL, robots directives, Open Graph/Twitter metadata, and Schema.org ProfilePage, Person and WebSite entities.
+- The canonical site URL for this GitHub Pages iteration is https://hritiksakpal.github.io/portfolio/.
+
+### Current Git blob identifiers at lock time
+- index.html: df142b9d35271999a5fff34195206559a49e43d3
+- styles.css: 81a7d7128c6b7f2133c37b40ad66df5ca7184582
+- script.js: 13b1dc8512bd9974781fd03fe54404b54cfb7cb2
+
+These identifiers are reference markers, not substitutes for fetching the latest file state before editing. Always fetch the current file and use its latest SHA for subsequent GitHub edits.
+
+## 10. SEARCH / AEO / GEO IMPLEMENTATION LOCK
+
+The goal is to maximize legitimate discoverability for searches around Hritik Sakpal, Product Analyst, Business Analyst, Product Analyst portfolio, Product Management portfolio, Associate Product Manager / APM, product case studies, product analytics, PRDs, Jira, Agile/Scrum, UX workflows, and Hritik's named products.
+
+The implementation must prioritize:
+- people-first, first-hand portfolio content;
+- strong entity identity and consistent official profile links;
+- clear semantic page structure and descriptive headings;
+- crawlability and indexability;
+- canonicalization and sitemap hygiene;
+- accurate structured data based only on facts shown on the page;
+- high-quality project screenshots and case-study evidence;
+- internal linking when additional case-study pages are created;
+- Search Console and Bing Webmaster monitoring after deployment.
+
+Do not use hidden keyword blocks, keyword stuffing, doorway pages, mass near-duplicate pages, fake mentions, fabricated metrics, or other ranking-manipulation tactics.
+
+Google's current guidance explicitly states that SEO fundamentals remain relevant to generative AI search, that useful non-commodity content matters, and that indexing/serving are not guaranteed. Google also states that llms.txt is not used for Google Search ranking, although it may be maintained for other systems. OpenAI's current publisher guidance says public websites can appear in ChatGPT search and should not block OAI-SearchBot when they want content to be discovered and cited.
+
+## 11. SEARCH VISIBILITY REALITY CHECK
+
+No code or SEO configuration can guarantee that this portfolio will rank first for every query, on every platform, in every country, for every user, or in every AI system. Rankings depend on each platform's own crawling, indexing, relevance, quality, authority and personalization systems.
+
+The operational target is to make the site technically eligible, semantically unambiguous, easy to crawl, rich in genuine first-hand evidence, and consistently connected to Hritik Sakpal's official identities across the web.
