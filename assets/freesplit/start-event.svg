@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f3f4f6"/>
+  <rect x="350" y="28" width="500" height="704" rx="24" fill="#fff" stroke="#dce1e8" stroke-width="2"/>
+  <rect x="350" y="28" width="500" height="72" rx="24" fill="#10182d"/>
+  <rect x="350" y="76" width="500" height="24" fill="#10182d"/>
+  <text x="382" y="72" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Free Split</text>
+  <text x="600" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#10182d">What are we splitting today?</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="378" y="178" width="104" height="100" rx="15" fill="#fff" stroke="#dce1e8"/><text x="430" y="221" font-size="29">✈️</text><text x="430" y="253" font-size="16" font-weight="700" fill="#10182d">Trip</text>
+    <rect x="494" y="178" width="104" height="100" rx="15" fill="#fff" stroke="#dce1e8"/><text x="546" y="221" font-size="29">🏠</text><text x="546" y="253" font-size="16" font-weight="700" fill="#10182d">Flatmates</text>
+    <rect x="610" y="178" width="104" height="100" rx="15" fill="#fff" stroke="#dce1e8"/><text x="662" y="221" font-size="29">❤️</text><text x="662" y="253" font-size="16" font-weight="700" fill="#10182d">Couples</text>
+    <rect x="726" y="178" width="104" height="100" rx="15" fill="#fff" stroke="#dce1e8"/><text x="778" y="221" font-size="29">🍔</text><text x="778" y="253" font-size="16" font-weight="700" fill="#10182d">Dinner</text>
+  </g>
+  <line x1="378" y1="305" x2="822" y2="305" stroke="#e3e7ec" stroke-dasharray="5 7"/>
+  <text x="378" y="343" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">EVENT NAME</text>
+  <rect x="378" y="356" width="444" height="46" rx="12" fill="#f6f8fb" stroke="#dce1e8"/><text x="396" y="385" font-family="Arial, sans-serif" font-size="15" fill="#10182d">GOA 2026</text>
+  <text x="378" y="434" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">CURRENCY</text>
+  <rect x="378" y="447" width="444" height="46" rx="12" fill="#f6f8fb" stroke="#dce1e8"/><text x="396" y="476" font-family="Arial, sans-serif" font-size="15" fill="#10182d">₹ INR (Indian Rupee)</text>
+  <text x="378" y="525" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">ADD FRIENDS (GHOST USERS)</text>
+  <g font-family="Arial, sans-serif" font-size="14" fill="#10182d">
+    <rect x="378" y="539" width="444" height="36" rx="10" fill="#f6f8fb" stroke="#dce1e8"/><text x="394" y="562">Hritik</text>
+    <rect x="378" y="581" width="444" height="36" rx="10" fill="#f6f8fb" stroke="#dce1e8"/><text x="394" y="604">Raj</text>
+    <rect x="378" y="623" width="444" height="36" rx="10" fill="#f6f8fb" stroke="#dce1e8"/><text x="394" y="646">Manav</text>
+  </g>
+  <text x="600" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#5f6f86">Add people first. Add payment details only when needed.</text>
+</svg>
