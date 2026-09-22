@@ -1,13 +1,16 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="FreeSplit product case study by Hritik Sakpal covering shared expense splitting, product rules, user flows, requirements, edge cases and success metrics.">
+<meta name="description" content="FreeSplit case study by Hritik Sakpal: a low-friction expense splitting product that turns group bills into clear balances, shareable WhatsApp messages, and easy settlement.">
 <meta name="author" content="Hritik Sakpal">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="https://hritiksakpal.github.io/portfolio/freesplit.html">
 <meta name="theme-color" content="#f7f7f4">
 <meta property="og:title" content="FreeSplit Case Study — Hritik Sakpal">
-<meta property="og:description" content="How Hritik Sakpal approached FreeSplit around clarity, transparent rules and lower calculation friction.">
+<meta property="og:description" content="How FreeSplit turns group expenses into clear balances, WhatsApp-ready sharing, a public ledger link, and simple settlement.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://hritiksakpal.github.io/portfolio/freesplit.html">
 <meta property="og:site_name" content="Hritik Sakpal">
@@ -16,7 +19,7 @@
 <meta property="og:image:alt" content="Hritik Sakpal — Product Analyst">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FreeSplit Case Study — Hritik Sakpal">
-<meta name="twitter:description" content="How Hritik Sakpal approached FreeSplit around clarity, transparent rules and lower calculation friction.">
+<meta name="twitter:description" content="How FreeSplit turns group expenses into clear balances, WhatsApp-ready sharing, a public ledger link, and simple settlement.">
 <meta name="twitter:image" content="https://hritiksakpal.github.io/portfolio/assets/profile.jpg">
 <meta name="twitter:image:alt" content="Hritik Sakpal — Product Analyst">
 <title>FreeSplit Case Study | Hritik Sakpal</title>
@@ -29,13 +32,13 @@
       "@type":"Article",
       "@id":"https://hritiksakpal.github.io/portfolio/freesplit.html#article",
       "headline":"FreeSplit Case Study — Hritik Sakpal",
-      "description":"FreeSplit product case study by Hritik Sakpal covering shared expense splitting, product rules, user flows, requirements, edge cases and success metrics.",
+      "description":"FreeSplit case study by Hritik Sakpal showing how group bills become clear balances, shareable WhatsApp messages, a public ledger link, and simple settlement.",
       "author":{"@id":"https://hritiksakpal.github.io/portfolio/#person"},
       "publisher":{"@id":"https://hritiksakpal.github.io/portfolio/#person"},
       "mainEntityOfPage":{"@id":"https://hritiksakpal.github.io/portfolio/freesplit.html"},
       "url":"https://hritiksakpal.github.io/portfolio/freesplit.html",
       "image":"https://hritiksakpal.github.io/portfolio/assets/profile.jpg",
-      "articleSection":"Consumer Product",
+      "articleSection":"Expense Management",
       "datePublished":"2026-09-22",
       "dateModified":"2026-09-22",
       "inLanguage":"en-IN",
@@ -74,30 +77,242 @@
 </script>
 </head>
 <body>
-<header class="nav"><div class="wrap navin"><a class="brand" href="./">Hritik Sakpal</a><nav class="links"><a href="./">Portfolio</a><a href="#problem">Problem</a><a href="#logic">Product logic</a><a href="#success">Success</a></nav></div></header>
-<main><div class="wrap"><nav class="breadcrumbs" aria-label="Breadcrumb"><a href="./">Portfolio</a> / <a href="./#work">Case Studies</a> / <span>FreeSplit</span></nav></div>
+<header class="nav">
+  <div class="wrap navin">
+    <a class="brand" href="./">Hritik Sakpal</a>
+    <nav class="links">
+      <a href="./">Portfolio</a>
+      <a href="#problem">Problem</a>
+      <a href="#flow">Flow</a>
+      <a href="#screens">Screens</a>
+      <a href="#success">Success</a>
+    </nav>
+  </div>
+</header>
 
-<section class="hero wrap reveal"><div class="kicker">Case study / 02</div><h1>Designing <span>FreeSplit</span> around clarity, fairness and less calculation.</h1><p class="lead">An expense-splitting product concept focused on making shared spending easier to divide, understand and settle.</p><div class="hero-actions"><a class="btn primary" href="https://freesplit.in" target="_blank" rel="noreferrer">Visit FreeSplit ↗</a><a class="btn" href="./">Back to portfolio</a></div>
-<div class="meta-grid"><div class="meta"><b>Product type</b><span>Consumer finance utility</span></div><div class="meta"><b>Core problem</b><span>Shared spending creates calculation friction</span></div><div class="meta"><b>Product lens</b><span>Inputs, rules, clarity and settlement</span></div><div class="meta"><b>Portfolio focus</b><span>Flows, requirements, edge cases</span></div></div></section>
+<main>
+  <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="./">Portfolio</a> / <a href="./#work">Case Studies</a> / <span>FreeSplit</span>
+    </nav>
+  </div>
 
-<section id="problem" class="section wrap"><div class="section-head reveal"><div><div class="kicker">01 / Problem framing</div><h2>Splitting money sounds simple until the rules arrive.</h2></div><p class="section-lead">The product challenge is not just arithmetic. Users need to know who paid, who participated, how the amount should be divided and what needs to happen next.</p></div>
-<div class="grid"><article class="card copy span-7 reveal"><h3>Where friction appears</h3><p>Shared meals, trips, subscriptions and group purchases can involve different participants and unequal contributions. A useful product needs to make those rules understandable before presenting a final balance.</p><p>That leads to a product principle: reduce the number of decisions a user has to hold in their head at once.</p><div class="pills"><span class="pill">Who paid?</span><span class="pill">Who shares?</span><span class="pill">How much?</span><span class="pill">Who owes whom?</span></div></article><aside class="evidence span-5 reveal"><div class="mock-screen"><div class="mock-label">Shared expense</div><div class="mock-title">₹ — split clearly</div><div class="mock-line s1"></div><div class="mock-line s2"></div><div class="mock-line s3"></div><div class="mock-cards"><div class="mock-card"></div><div class="mock-card"></div><div class="mock-card"></div></div></div></aside></div></section>
+  <section class="hero wrap reveal">
+    <div class="kicker">Case study / 02</div>
+    <h1>Making <span>FreeSplit</span> easy to enter, understand, share and settle.</h1>
+    <p class="lead">FreeSplit turns group expenses into a clear balance. People can add bills, see who owes whom, share the result directly on WhatsApp, and open the shared ledger without logging in.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="https://freesplitt.blogspot.com/" target="_blank" rel="noreferrer">Open FreeSplit ↗</a>
+      <a class="btn" href="./">Back to portfolio</a>
+    </div>
 
-<section id="logic" class="section wrap"><div class="section-head reveal"><div><div class="kicker">02 / Product logic</div><h2>Rules should be visible, not hidden.</h2></div><p class="section-lead">A strong expense-splitting flow makes the underlying calculation understandable enough that users can trust the result.</p></div>
-<div class="timeline reveal">
-<div class="step-row"><div class="num">01</div><div><h3>Capture the group</h3><p>Define participants before creating a transaction so every amount has a clear set of people attached to it.</p></div></div>
-<div class="step-row"><div class="num">02</div><div><h3>Capture the payment</h3><p>Record who paid and the total amount without forcing the user to calculate balances manually.</p></div></div>
-<div class="step-row"><div class="num">03</div><div><h3>Apply the split rule</h3><p>Support the core product question: is the amount shared equally, or does the product need to represent a different allocation rule?</p></div></div>
-<div class="step-row"><div class="num">04</div><div><h3>Explain the result</h3><p>Translate raw arithmetic into a clear balance so a user can understand what they owe or should receive.</p></div></div>
-<div class="step-row"><div class="num">05</div><div><h3>Design for edge cases</h3><p>Think through zero-value entries, missing participants, duplicate inputs and repeated transactions before they become support problems.</p></div></div>
-</div></section>
+    <div class="meta-grid">
+      <div class="meta"><b>Product type</b><span>Expense splitting utility</span></div>
+      <div class="meta"><b>Main problem</b><span>Group expenses are hard to track and explain</span></div>
+      <div class="meta"><b>Key flow</b><span>Add bill → balance → share → settle</span></div>
+      <div class="meta"><b>Low-friction choice</b><span>Shared ledger can open without login</span></div>
+    </div>
+  </section>
 
-<section class="section wrap"><div class="grid"><article class="card copy span-6 reveal"><div class="kicker">Product artifacts</div><h3>What a recruiter should be able to inspect.</h3><p>The case study is intentionally centred on product thinking rather than pretending that a polished UI alone demonstrates product capability.</p><div class="pills"><span class="pill">User flow</span><span class="pill">User stories</span><span class="pill">Acceptance criteria</span><span class="pill">Edge cases</span><span class="pill">Success metrics</span></div></article><article class="card copy span-6 reveal"><div class="kicker">Success criteria</div><h3>Measure whether the product actually reduces effort.</h3><p>The next measurement layer would focus on time to create a split, calculation-error rate, completion rate and the proportion of created expenses that reach a clear settlement state.</p><div class="pills"><span class="pill">Completion rate</span><span class="pill">Time to split</span><span class="pill">Error rate</span><span class="pill">Settlement completion</span></div></article></div></section>
+  <section id="problem" class="section wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">01 / Problem</div>
+        <h2>Group expenses get messy when many people pay.</h2>
+      </div>
+      <p class="section-lead">A trip can have different bills, different payers, and different people sharing each bill. The product needs to keep those details simple and turn them into one clear result.</p>
+    </div>
 
-<section id="success" class="section wrap"><div class="quote reveal"><p>“Good financial utility products make the answer feel obvious while keeping the underlying rule understandable.”</p><span>Product reflection · Hritik Sakpal</span></div></section>
+    <div class="grid">
+      <article class="card copy span-7 reveal">
+        <h3>The product needs to answer four simple questions.</h3>
+        <p>Who is in the group? Who paid for this bill? Who should share the bill? After all bills are added, who owes whom?</p>
+        <p>FreeSplit keeps these questions close to the point where the user makes each decision instead of asking them to remember the whole calculation.</p>
+        <div class="pills">
+          <span class="pill">Who is in the group?</span>
+          <span class="pill">Who paid?</span>
+          <span class="pill">Who shares?</span>
+          <span class="pill">Who owes whom?</span>
+        </div>
+      </article>
+      <aside class="evidence span-5 reveal">
+        <div class="mock-screen">
+          <div class="mock-label">Product goal</div>
+          <div class="mock-title">Clear answer, fewer calculations</div>
+          <div class="mock-line s1"></div>
+          <div class="mock-line s2"></div>
+          <div class="mock-line s3"></div>
+          <div class="mock-cards"><div class="mock-card"></div><div class="mock-card"></div><div class="mock-card"></div></div>
+        </div>
+      </aside>
+    </div>
+  </section>
 
-<section class="section wrap"><div class="cta reveal"><div class="kicker" style="color:#b9b7ff">Next</div><h2>See the education product case study.</h2><p>Another example of turning a fragmented user problem into a structured digital product.</p><div class="hero-actions"><a class="btn" href="mba-solutions-hub.html">MBA Solutions Hub →</a><a class="btn" href="notifying-in.html">Notifying.in →</a></div></div></section>
+  <section id="flow" class="section wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">02 / End-to-end flow</div>
+        <h2>One flow from the first bill to the final settlement.</h2>
+      </div>
+      <p class="section-lead">The product is designed around the real job to be done: record the money, understand the result, tell the group, and close the balance.</p>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="step-row"><div class="num">01</div><div><h3>Start the split</h3><p>Create an event, choose the currency, and add people by name. A phone number is optional.</p></div></div>
+      <div class="step-row"><div class="num">02</div><div><h3>Add each bill</h3><p>Select who paid, add a simple description, enter the amount, and choose who shares that bill.</p></div></div>
+      <div class="step-row"><div class="num">03</div><div><h3>Check the ledger</h3><p>Keep every bill visible so users can see what was paid and who was included.</p></div></div>
+      <div class="step-row"><div class="num">04</div><div><h3>See the balance</h3><p>Combine the bills into a clear “who owes whom” result instead of making users do the math themselves.</p></div></div>
+      <div class="step-row"><div class="num">05</div><div><h3>Share and settle</h3><p>Share the summary on WhatsApp, open the ledger from the link, pay by UPI when available, or mark the balance as settled.</p></div></div>
+    </div>
+  </section>
+
+  <section id="screens" class="section wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="kicker">03 / Product screens</div>
+        <h2>How the flow looks in the product.</h2>
+      </div>
+      <p class="section-lead">Each screen below is explained in plain language so the product logic is easy to follow.</p>
+    </div>
+
+    <div class="screen-feature reveal">
+      <div class="screen-image">
+        <img src="assets/freesplit/start-event.svg" alt="FreeSplit screen for starting a trip expense split, choosing a category, naming the event, setting currency, and adding friends">
+      </div>
+      <div class="screen-feature-copy">
+        <div class="screen-label">Screen 01</div>
+        <h3>Start a split</h3>
+        <p>Choose what you are splitting, give the event a name, set the currency, and add the people who will be part of the event.</p>
+        <div class="pills">
+          <span class="pill">Trip / Dinner / Flatmates</span>
+          <span class="pill">Currency</span>
+          <span class="pill">Add people</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-grid two">
+      <figure class="screen-card reveal">
+        <div class="screen-image"><img src="assets/freesplit/add-expense.svg" alt="FreeSplit add bill screen showing payer selection, description, amount, and people sharing the bill"></div>
+        <figcaption>
+          <div class="screen-label">Screen 02</div>
+          <h3>Add an expense</h3>
+          <p>Select who paid, describe the bill, enter the amount, and choose who should share it.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="screen-card reveal">
+        <div class="screen-image"><img src="assets/freesplit/ledger.svg" alt="FreeSplit expenses ledger showing bills, who paid, who shared each bill, and the amount"></div>
+        <figcaption>
+          <div class="screen-label">Screen 03</div>
+          <h3>Keep every bill visible</h3>
+          <p>The ledger keeps the expense history together, with the payer, people sharing the bill, and amount shown in one place.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="screen-feature compact reveal">
+      <div class="screen-image">
+        <img src="assets/freesplit/balances.svg" alt="FreeSplit balance screen showing total event cost and the exact amounts each person owes">
+      </div>
+      <div class="screen-feature-copy">
+        <div class="screen-label">Screen 04</div>
+        <h3>Turn bills into one clear balance</h3>
+        <p>After the bills are added, FreeSplit shows the total event cost and the exact amount each person needs to pay.</p>
+        <div class="pills">
+          <span class="pill">Total event cost</span>
+          <span class="pill">Who owes whom</span>
+          <span class="pill">Clear amounts</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="screen-grid two">
+      <figure class="screen-card reveal">
+        <div class="screen-image"><img src="assets/freesplit/settlement.svg" alt="FreeSplit settlement screen showing UPI payment and an optional section to save UPI ID and phone number"></div>
+        <figcaption>
+          <div class="screen-label">Screen 05</div>
+          <h3>Make settlement part of the flow</h3>
+          <p>Users can pay through saved UPI details when available, or mark the balance as settled.</p>
+        </figcaption>
+      </figure>
+
+      <figure class="screen-card reveal">
+        <div class="screen-image"><img src="assets/freesplit/whatsapp-share.svg" alt="FreeSplit WhatsApp-ready balance message showing total cost, who owes whom, and a link to the full ledger"></div>
+        <figcaption>
+          <div class="screen-label">Screen 06</div>
+          <h3>Share the result on WhatsApp</h3>
+          <p>FreeSplit turns the balance into a ready-to-send message with the key amounts and a link to the full ledger.</p>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="screen-section-note reveal">
+      <strong>No login for the recipient.</strong>
+      <span>The person who receives the ledger link can open the shared event and view the ledger without creating an account. This keeps sharing simple when the other person only needs to check the result.</span>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="grid">
+      <article class="card copy span-6 reveal">
+        <div class="kicker">04 / Product choices</div>
+        <h3>Why these choices matter.</h3>
+        <p>FreeSplit is built around the moment when people need an answer, not around a long account setup. That is why the flow keeps people lightweight, makes the ledger easy to open, and puts sharing close to the final balance.</p>
+        <div class="pills">
+          <span class="pill">Add by name</span>
+          <span class="pill">Phone optional</span>
+          <span class="pill">Share on WhatsApp</span>
+          <span class="pill">No-login ledger</span>
+        </div>
+      </article>
+
+      <article class="card copy span-6 reveal">
+        <div class="kicker">05 / Product artifacts</div>
+        <h3>What I would measure next.</h3>
+        <p>The next step is to check whether the product is actually reducing effort from bill entry to settlement.</p>
+        <div class="pills">
+          <span class="pill">Event creation rate</span>
+          <span class="pill">Expense completion rate</span>
+          <span class="pill">Time to clear balance</span>
+          <span class="pill">Ledger link opens</span>
+          <span class="pill">Settlement completion</span>
+          <span class="pill">Repeat use</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="success" class="section wrap">
+    <div class="quote reveal">
+      <p>“The useful part is not only calculating the split. It is making the result easy to understand, easy to share, and easy to act on.”</p>
+      <span>Product reflection · Hritik Sakpal</span>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="cta reveal">
+      <div class="kicker" style="color:#b9b7ff">Next case study</div>
+      <h2>See how I approached MBA Solutions Hub.</h2>
+      <p>Another product example focused on helping users find, understand, and use structured academic content.</p>
+      <div class="hero-actions">
+        <a class="btn" href="mba-solutions-hub.html">MBA Solutions Hub →</a>
+        <a class="btn" href="notifying-in.html">Notifying.in →</a>
+      </div>
+    </div>
+  </section>
 </main>
-<footer><div class="wrap foot"><span>© 2026 Hritik Sakpal</span><span>Product Analyst · Business Analyst · Product Builder</span></div></footer>
-<script>const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));</script>
-</body></html>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Hritik Sakpal</span>
+    <span>Product Analyst · Business Analyst · Product Builder</span>
+  </div>
+</footer>
+
+<script>
+const obs=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
