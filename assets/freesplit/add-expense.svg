@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#f3f4f6"/>
+  <rect x="350" y="28" width="500" height="704" rx="24" fill="#fff" stroke="#dce1e8" stroke-width="2"/>
+  <rect x="350" y="28" width="500" height="72" rx="24" fill="#10182d"/><rect x="350" y="76" width="500" height="24" fill="#10182d"/>
+  <text x="382" y="72" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">GOA 2026</text>
+  <rect x="378" y="132" width="444" height="44" rx="12" fill="#eef2f7"/>
+  <rect x="384" y="138" width="216" height="32" rx="9" fill="#fff"/><text x="492" y="159" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#10182d">Add Bill</text>
+  <text x="714" y="159" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#66758a">Manual Settle</text>
+  <text x="378" y="212" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">WHO PAID?</text>
+  <rect x="378" y="224" width="444" height="46" rx="12" fill="#f6f8fb" stroke="#dce1e8"/><text x="396" y="253" font-family="Arial, sans-serif" font-size="15" fill="#10182d">Hritik</text><text x="796" y="253" font-family="Arial, sans-serif" font-size="16" fill="#10182d">⌄</text>
+  <text x="378" y="303" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">DESCRIPTION</text>
+  <g font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5f6f86">
+    <rect x="378" y="317" width="105" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="430" y="337" text-anchor="middle">Hotel Booking</text>
+    <rect x="490" y="317" width="56" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="518" y="337" text-anchor="middle">Food</text>
+    <rect x="553" y="317" width="78" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="592" y="337" text-anchor="middle">Cab Fare</text>
+    <rect x="638" y="317" width="65" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="670" y="337" text-anchor="middle">Drinks</text>
+    <rect x="378" y="355" width="87" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="421" y="375" text-anchor="middle">Petrol Fuel</text>
+    <rect x="472" y="355" width="54" height="30" rx="14" fill="#f6f8fb" stroke="#dce1e8"/><text x="499" y="375" text-anchor="middle">Flight</text>
+  </g>
+  <rect x="378" y="401" width="444" height="46" rx="12" fill="#f6f8fb" stroke="#dce1e8"/><text x="396" y="430" font-family="Arial, sans-serif" font-size="15" fill="#10182d">Hotel Booking</text>
+  <text x="378" y="482" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">AMOUNT</text>
+  <rect x="378" y="494" width="444" height="64" rx="12" fill="#f6f8fb" stroke="#dce1e8"/><text x="396" y="535" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#10182d">3000</text>
+  <text x="378" y="592" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5f6f86">SPLIT EQUALLY BETWEEN</text>
+  <g font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#10182d">
+    <rect x="378" y="604" width="444" height="34" rx="10" fill="#fff" stroke="#dce1e8"/><text x="392" y="626">Hritik</text><text x="796" y="626">✓</text>
+    <rect x="378" y="641" width="444" height="34" fill="#fff" stroke="#dce1e8"/><text x="392" y="663">Raj</text><text x="796" y="663">✓</text>
+    <rect x="378" y="678" width="444" height="34" rx="10" fill="#fff" stroke="#dce1e8"/><text x="392" y="700">Manav</text><text x="796" y="700">✓</text>
+  </g>
+</svg>
