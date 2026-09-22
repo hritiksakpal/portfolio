@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#efe9de"/>
+  <rect x="0" y="0" width="1200" height="70" fill="#f8f8f8"/>
+  <text x="72" y="44" font-family="Arial, sans-serif" font-size="22" fill="#5a6168">‹</text>
+  <circle cx="1110" cy="35" r="22" fill="#25D366"/><text x="1110" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#fff">◔</text>
+  <rect x="170" y="92" width="860" height="560" rx="24" fill="#d6f8c6"/>
+  <text x="205" y="135" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10182d">Free Split · Shared balance</text>
+  <text x="205" y="177" font-family="Arial, sans-serif" font-size="15" fill="#4b5f4e">Ready to share with the group</text>
+  <line x1="205" y1="198" x2="995" y2="198" stroke="#b8dfad"/>
+  <text x="205" y="245" font-family="Arial, sans-serif" font-size="27" font-weight="800" fill="#10182d">💸 GOA 2026 BALANCES</text>
+  <text x="205" y="302" font-family="Arial, sans-serif" font-size="24" fill="#10182d">Total Cost: <tspan font-weight="800">₹5500.00</tspan></text>
+  <text x="205" y="352" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#10182d">Who owes whom:</text>
+  <text x="205" y="396" font-family="Arial, sans-serif" font-size="21" fill="#10182d">👉 Sunny owes Hritik <tspan font-weight="800">₹1375.00</tspan></text>
+  <text x="205" y="438" font-family="Arial, sans-serif" font-size="21" fill="#10182d">👉 Suraj owes Hritik <tspan font-weight="800">₹250.00</tspan></text>
+  <text x="205" y="480" font-family="Arial, sans-serif" font-size="21" fill="#10182d">👉 Suraj owes Raj <tspan font-weight="800">₹1125.00</tspan></text>
+  <text x="205" y="535" font-family="Arial, sans-serif" font-size="21" fill="#10182d">🔗 View full ledger here:</text>
+  <text x="205" y="575" font-family="Arial, sans-serif" font-size="18" fill="#237a55">freesplitt.blogspot.com/?id=event-link</text>
+  <text x="995" y="620" text-anchor="end" font-family="Arial, sans-serif" font-size="13" fill="#5f6a64">Ready to send on WhatsApp</text>
+</svg>
