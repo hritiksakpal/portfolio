@@ -210,7 +210,7 @@ Tablet:
 - Multi-column supporting layouts reduce cleanly.
 
 Mobile:
-- Navigation becomes minimal/hidden as in the reference.
+- Primary navigation remains visible on mobile in a compact layout; Work, Approach, Experience and Contact stay accessible.
 - Hero typography scales down.
 - Project cards become one column.
 - Case-study stat grids collapse.
