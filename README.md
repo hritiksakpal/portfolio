@@ -1,97 +1,68 @@
-# Hritik Sakpal — Portfolio
+# Hritik Sakpal — Product Analyst Portfolio
 
-A recruiter-focused personal portfolio for **Hritik Sakpal** — Product Analyst, Business Analyst & Product Builder.
+Canonical portfolio website for **Hritik Sakpal**, positioned as a **Product Analyst, Business Analyst and Product Builder**.
 
-## Live site
+## Live portfolio
 
-Once GitHub Pages is enabled, the site can be published at:
+**https://hritiksakpal.github.io/portfolio/**
 
-`https://hritiksakpal.github.io/portfolio/`
+## What the site contains
 
-## What is inside
+- Recruiter-focused personal profile
+- Product portfolio and case studies
+- Notifying.in, FreeSplit and MBA Solutions Hub as featured work
+- Doctor Computer and CDigital Bundles as supporting work
+- Product approach, experience, education, skills and contact
+- Responsive light design based on the locked portfolio reference
+- Crawlable HTML, canonical URL, Open Graph/Twitter metadata and Schema.org profile/entity markup
+- robots.txt, XML sitemap and an AI-readable llms.txt
+- Automatic IndexNow notifications for portfolio URL changes
 
-- Premium responsive homepage
-- Interactive 3D hero built with Three.js
-- Product-focused case study cards
-- Product thinking / approach section
-- Experience timeline
-- Skills toolkit
-- Contact CTA
-- Mobile navigation
-- Scroll progress indicator
-- Reduced-motion support
-- No build step required
+## Important files
 
-## Files
+    index.html                    # canonical homepage
+    robots.txt                    # crawler access policy + sitemap reference
+    sitemap.xml                   # search-engine sitemap
+    llms.txt                      # optional machine-readable portfolio summary
+    a7d3c91e4f5b8a62c0d1e9f7b4a6c3d8.txt
+                                  # public IndexNow verification key
+    .github/workflows/indexnow.yml
+                                  # IndexNow notification workflow
+    PORTFOLIO_MASTER_SPEC.md      # locked design/content/source-of-truth specification
 
-```
-index.html    # page structure and content
-styles.css    # visual system, layout and responsive design
-script.js     # interactions, scroll reveal and 3D scene
-```
+## Profile image
 
-## GitHub Pages setup
+The homepage reads the profile image from:
 
-1. Open this repository on GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select branch **main** and folder **/ (root)**.
-5. Click **Save**.
-6. Wait for the deployment to finish.
-7. Open the Pages URL GitHub provides.
+assets/profile.jpg
 
-## Editing the portfolio
+Replace that file with the latest approved professional photo. The homepage includes a temporary GitHub-avatar fallback only when the local image is unavailable.
 
-The easiest workflow:
+## Search visibility
 
-1. Open a file in GitHub.
-2. Click the pencil **Edit this file** button.
-3. Change the content.
-4. Click **Commit changes**.
-5. GitHub Pages will redeploy automatically.
+This repository is configured for discoverability, but no website can guarantee a #1 position for every search query or placement in every search or AI system. Search engines and AI systems use their own ranking, quality, crawling and relevance systems.
 
-For larger changes, clone the repository locally and use Git:
+The portfolio therefore follows a sustainable approach:
 
-```bash
-git clone https://github.com/hritiksakpal/portfolio.git
-cd portfolio
-```
+- clear person/entity identity
+- descriptive title and meta description
+- crawlable page and assets
+- canonical URL
+- structured data for the person/profile/site
+- XML sitemap
+- explicit crawler access for OAI-SearchBot
+- consistent official profile links
+- first-hand project/case-study content
+- automatic IndexNow notifications for supported search engines
 
-Then after editing:
+Do not keyword-stuff the site or generate near-duplicate pages solely to target search-query variations.
 
-```bash
-git add .
-git commit -m "Update portfolio"
-git push
-```
-
-## Recommended next uploads
-
-Create an `assets/` folder later and add:
-
-- `assets/resume/Hritik-Sakpal-Resume.pdf`
-- Notifying.in screenshots
-- FreeSplit screenshots
-- MBA Solutions Hub screenshots
-- Any approved case-study diagrams
-
-## Security
-
-Never upload:
-
-- API keys
-- Private keys
-- Passwords
-- Access tokens
-- Database credentials
-- Private user data
-
-Keep secrets in environment variables in actual application repositories.
-
-## Portfolio direction
-
-The site intentionally positions Hritik around:
+## Portfolio positioning
 
 **Product + Business Analysis + Analytics + Hands-on Building**
 
-It avoids claiming a formal Product Manager title where one was not held.
+The portfolio does **not** claim a formal Product Manager title where the documented role was Product Analyst / Associate Product Analyst.
+
+## Security
+
+Never upload API keys, private keys, passwords, access tokens, database credentials or private user data to this repository.
