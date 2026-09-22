@@ -1,49 +1,51 @@
 (() => {
   "use strict";
-
   document.documentElement.classList.add("js");
 
-  const $ = (selector, scope = document) => scope.querySelector(selector);
-  const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
-
-  const year = $("#year");
+  const year = document.getElementById("year");
   if (year) year.textContent = new Date().getFullYear();
 
-  const topLine = $("#topLine");
-  const updateProgress = () => {
-    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
-    const progress = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
-    if (topLine) topLine.style.width = progress + "%";
+  const scrollLine = document.getElementById("scrollLine");
+  const setProgress = () => {
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const value = max > 0 ? (window.scrollY / max) * 100 : 0;
+    if (scrollLine) scrollLine.style.width = value + "%";
   };
-  window.addEventListener("scroll", updateProgress, { passive: true });
-  updateProgress();
+  window.addEventListener("scroll", setProgress, {passive:true});
+  setProgress();
 
-  const menu = $("#menu");
-  const nav = $("#nav");
-  if (menu && nav) {
-    menu.addEventListener("click", () => {
+  const nav = document.getElementById("nav");
+  const menuButton = document.getElementById("menuButton");
+  if (nav && menuButton) {
+    menuButton.addEventListener("click", () => {
       const open = nav.classList.toggle("open");
-      menu.setAttribute("aria-expanded", String(open));
-      menu.textContent = open ? "Close" : "Menu";
+      menuButton.setAttribute("aria-expanded", String(open));
+      menuButton.textContent = open ? "Close" : "Menu";
     });
 
-    $$(".nav a").forEach(link => {
+    nav.querySelectorAll("a").forEach(link => {
       link.addEventListener("click", () => {
         nav.classList.remove("open");
-        menu.setAttribute("aria-expanded", "false");
-        menu.textContent = "Menu";
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.textContent = "Menu";
       });
     });
   }
 
-  const observer = new IntersectionObserver((entries) => {
+  const revealItems = document.querySelectorAll(".reveal");
+  if (!("IntersectionObserver" in window)) {
+    revealItems.forEach(el => el.classList.add("show"));
+    return;
+  }
+
+  const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
+        entry.target.classList.add("show");
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.14 });
+  }, {threshold:.1});
 
-  $$(".reveal").forEach(el => observer.observe(el));
+  revealItems.forEach(el => observer.observe(el));
 })();
