@@ -3,272 +3,242 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8faf8">
+  <meta name="theme-color" content="#fbfaf7">
   <meta name="description" content="Hritik Sakpal — Product Analyst, Business Analyst and Product Builder.">
-  <title>Hritik Sakpal | Product Analyst & Product Builder</title>
+  <title>Hritik Sakpal — Product Analyst & Product Builder</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body>
-  <div class="scroll-line" id="scrollLine" aria-hidden="true"></div>
-
   <header class="site-header">
-    <div class="wrap nav-wrap">
-      <a class="brand" href="#home">
-        <span class="brand-avatar">HS</span>
-        <span>Hritik Sakpal</span>
-      </a>
+    <div class="header-inner">
+      <a class="logo" href="#home" aria-label="Hritik Sakpal home">HS</a>
 
-      <nav class="nav" id="nav" aria-label="Primary">
-        <a href="#work">Work</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#work">Projects</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
       </nav>
 
-      <div class="nav-actions">
-        <a class="text-link hide-mobile" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        <a class="button button-dark small-button" href="assets/Hritik-Sakpal-Resume.pdf" download>Resume ↓</a>
-        <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
+      <div class="header-links">
+        <a href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+        <a href="#contact" class="contact-link">Get in touch</a>
       </div>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">Menu</button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home">Home</a>
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
     </div>
   </header>
 
   <main id="home">
-    <section class="hero wrap">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="live-dot"></span> Product Analyst · Business Analyst · Product Builder</div>
-        <h1>Hello, I’m <span>Hritik.</span><br>I build products<br>that make sense.</h1>
-        <p>
-          I combine business analysis, product thinking, UX and hands-on execution
-          to turn problems into clear, useful digital experiences.
-        </p>
-        <div class="hero-buttons">
-          <a class="button button-dark" href="#work">See my work <span>↓</span></a>
-          <a class="button button-light" href="assets/Hritik-Sakpal-Resume.pdf" download>Download resume <span>↓</span></a>
-        </div>
-        <div class="quick-facts">
-          <div><strong>MBA</strong><span>Business Analytics</span></div>
-          <div><strong>Jira</strong><span>PRDs · Scrum</span></div>
-          <div><strong>0 → 1</strong><span>Product building</span></div>
-        </div>
-      </div>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="kicker">PRODUCT ANALYST &amp; PRODUCT BUILDER</p>
+          <h1>Hi, I’m <span>Hritik.</span></h1>
+          <p class="hero-text">
+            I turn business problems into clear product experiences — combining analysis,
+            product thinking, UX and hands-on building.
+          </p>
 
-      <div class="hero-profile reveal">
-        <div class="profile-frame">
-          <img src="assets/profile.jpg" alt="Hritik Sakpal" loading="eager"
-               onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
-          <div class="profile-fallback">
-            <span>HS</span>
-            <small>YOUR PHOTO</small>
+          <div class="hero-actions">
+            <a class="btn btn-dark" href="#work">View projects <span>↘</span></a>
+            <a class="btn btn-outline" href="assets/Hritik-Sakpal-Resume.pdf" download>Download resume <span>↓</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span>MBA · Business Analytics</span>
+            <span>Thane / Mumbai</span>
+            <span><a href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a></span>
           </div>
         </div>
-        <div class="profile-caption">
-          <span>Mumbai Metropolitan Region</span>
-          <span>Available for opportunities</span>
+
+        <div class="hero-photo-wrap">
+          <div class="photo-label">HELLO / I BUILD PRODUCTS</div>
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Hritik Sakpal" onerror="this.style.display='none';document.getElementById('photoFallback').style.display='flex';">
+            <div class="photo-fallback" id="photoFallback">
+              <strong>HS</strong>
+              <span>Upload<br>profile.jpg</span>
+            </div>
+          </div>
+          <div class="photo-note">
+            <span>01</span>
+            <span>Product · Analysis · Build</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="intro-strip">
-      <div class="wrap strip-inner">
-        <span>PRODUCT</span><i>·</i><span>ANALYSIS</span><i>·</i><span>UX</span><i>·</i><span>BUILD</span>
-      </div>
-    </section>
+    <div class="rule"></div>
 
-    <section class="section wrap" id="work">
-      <div class="section-head reveal">
+    <section class="work section" id="work">
+      <div class="section-intro">
+        <p class="section-number">01</p>
         <div>
-          <span class="section-label">01 / Selected work</span>
-          <h2>Things I’ve <span>built.</span></h2>
+          <p class="section-kicker">SELECTED PROJECTS</p>
+          <h2>Things I’ve built.</h2>
         </div>
-        <p>Real products and product concepts showing how I think about problems, flows, users and implementation.</p>
+        <p class="section-note">A few products and product concepts that show how I think, structure and ship.</p>
       </div>
 
-      <div class="work-list">
-        <article class="project-card project-feature reveal">
-          <div class="project-image">
-            <img src="assets/notifying.jpg" alt="Notifying.in product screenshot" loading="lazy"
-                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-            <div class="image-placeholder">
-              <span>NOTIFYING.IN</span>
-              <small>Upload your product screenshot</small>
+      <div class="project-grid">
+        <article class="project project-main">
+          <a class="project-media" href="https://notifying.in" target="_blank" rel="noreferrer">
+            <img src="assets/notifying.jpg" alt="Notifying.in product screenshot" onerror="this.style.display='none';document.getElementById('notifyingFallback').style.display='flex';">
+            <div class="media-fallback" id="notifyingFallback">
+              <strong>Notifying.in</strong>
+              <span>Upload notifying.jpg</span>
             </div>
-            <span class="project-badge">FEATURED</span>
-          </div>
-          <div class="project-info">
-            <span class="project-index">01</span>
-            <h3>Notifying.in</h3>
-            <p class="project-type">Event discovery + notification platform</p>
-            <p class="project-description">
-              A 0→1 platform for discovering important events in India and sending timely web push notifications.
-              The product includes event/state/category systems, admin workflows, notification logs and monetization.
-            </p>
-            <div class="tags">
+            <span class="open-tag">VISIT ↗</span>
+          </a>
+          <div class="project-body">
+            <div class="project-title-row">
+              <div>
+                <p class="mini-label">01 / 0→1 PRODUCT</p>
+                <h3>Notifying.in</h3>
+              </div>
+              <a class="round-arrow" href="https://notifying.in" target="_blank" rel="noreferrer" aria-label="Visit Notifying.in">↗</a>
+            </div>
+            <p>Event discovery and web-push notification platform with event management, notification logs, admin workflows and monetization.</p>
+            <div class="project-tags">
               <span>Product logic</span><span>Admin UX</span><span>Notifications</span><span>Monetization</span>
-            </div>
-            <div class="project-actions">
-              <a class="arrow-link" href="https://notifying.in" target="_blank" rel="noreferrer">Visit product ↗</a>
-              <a class="quiet-link" href="mailto:imhritiksakpal@gmail.com?subject=Notifying.in%20Project">Discuss ↗</a>
             </div>
           </div>
         </article>
 
-        <div class="two-column-projects">
-          <article class="project-card reveal">
-            <div class="project-image compact">
-              <img src="assets/freesplit.jpg" alt="FreeSplit.in product screenshot" loading="lazy"
-                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-              <div class="image-placeholder">
-                <span>FREESPLIT.IN</span>
-                <small>Upload product image</small>
-              </div>
+        <article class="project">
+          <div class="project-media">
+            <img src="assets/freesplit.jpg" alt="FreeSplit.in product screenshot" onerror="this.style.display='none';document.getElementById('freeFallback').style.display='flex';">
+            <div class="media-fallback" id="freeFallback">
+              <strong>FreeSplit.in</strong>
+              <span>Upload freesplit.jpg</span>
             </div>
-            <div class="project-info">
-              <span class="project-index">02</span>
-              <h3>FreeSplit.in</h3>
-              <p class="project-type">Expense splitting product</p>
-              <p class="project-description">
-                A simple concept for splitting shared expenses and making group money easier to manage.
-              </p>
-              <div class="tags"><span>User flow</span><span>Product UX</span><span>Problem framing</span></div>
-            </div>
-          </article>
-
-          <article class="project-card reveal">
-            <div class="project-image compact">
-              <img src="assets/mba-solutions.jpg" alt="MBA Solutions Hub product screenshot" loading="lazy"
-                   onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-              <div class="image-placeholder">
-                <span>MBA SOLUTIONS HUB</span>
-                <small>Upload product image</small>
-              </div>
-            </div>
-            <div class="project-info">
-              <span class="project-index">03</span>
-              <h3>MBA Solutions Hub</h3>
-              <p class="project-type">Academic support product</p>
-              <p class="project-description">
-                A product for finding MBA question papers and accessing solutions through a simpler content structure.
-              </p>
-              <div class="tags"><span>Information architecture</span><span>UX</span><span>Content flow</span></div>
-            </div>
-          </article>
-        </div>
-
-        <div class="other-work reveal">
-          <div>
-            <span class="section-label">Other builds</span>
           </div>
-          <div class="other-items">
-            <span>Doctor Computer</span>
-            <span>CDigital Bundles</span>
-            <span>Automation experiments</span>
+          <div class="project-body">
+            <p class="mini-label">02 / PRODUCT CONCEPT</p>
+            <h3>FreeSplit.in</h3>
+            <p>Expense splitting and shared money management product concept focused on keeping group expenses simple.</p>
+            <div class="project-tags"><span>UX</span><span>User flow</span><span>Problem framing</span></div>
           </div>
-        </div>
+        </article>
+
+        <article class="project">
+          <div class="project-media">
+            <img src="assets/mba-solutions.jpg" alt="MBA Solutions Hub product screenshot" onerror="this.style.display='none';document.getElementById('mbaFallback').style.display='flex';">
+            <div class="media-fallback" id="mbaFallback">
+              <strong>MBA Solutions Hub</strong>
+              <span>Upload mba-solutions.jpg</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <p class="mini-label">03 / DIGITAL PRODUCT</p>
+            <h3>MBA Solutions Hub</h3>
+            <p>Academic support product built around a simpler question-paper, solution and download experience.</p>
+            <div class="project-tags"><span>Information architecture</span><span>Content flow</span><span>UX</span></div>
+          </div>
+        </article>
+      </div>
+
+      <div class="more-projects">
+        <span>OTHER BUILDS</span>
+        <p>Doctor Computer &nbsp;·&nbsp; CDigital Bundles &nbsp;·&nbsp; AI / automation experiments</p>
       </div>
     </section>
 
-    <section class="section about-section" id="about">
-      <div class="wrap about-grid">
-        <div class="reveal">
-          <span class="section-label">02 / About</span>
-          <h2>A business mind with a <span>builder’s approach.</span></h2>
+    <section class="about section" id="about">
+      <div class="about-grid">
+        <div class="about-title">
+          <p class="section-number">02</p>
+          <p class="section-kicker">ABOUT ME</p>
+          <h2>A business mind with a builder’s approach.</h2>
         </div>
-        <div class="about-copy reveal">
-          <p class="lead">
-            I’m an MBA in Business Analytics with a background in Information Technology,
+        <div class="about-copy">
+          <p class="large">
+            I’m an MBA in Business Analytics with a BSc in Information Technology,
             focused on product and business analysis.
           </p>
           <p>
             I enjoy taking unclear requirements, understanding the user and business problem,
-            structuring the logic, and working closely with the implementation.
-            My recent work has involved Jira, Scrum meetings, PRDs, requirements and product workflows.
+            structuring the logic, documenting the product clearly and working close to implementation.
           </p>
-          <div class="about-details">
+          <div class="about-list">
             <div><span>Education</span><strong>MBA · Business Analytics</strong></div>
-            <div><span>Background</span><strong>BSc · Information Technology</strong></div>
-            <div><span>Focus</span><strong>Product · Analytics · Automation</strong></div>
+            <div><span>Foundation</span><strong>BSc · Information Technology</strong></div>
+            <div><span>Strengths</span><strong>Requirements · PRDs · Jira · Product thinking</strong></div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section wrap" id="experience">
-      <div class="section-head reveal">
+    <section class="experience section" id="experience">
+      <div class="section-intro compact">
+        <p class="section-number">03</p>
         <div>
-          <span class="section-label">03 / Experience</span>
-          <h2>Where I’ve <span>worked.</span></h2>
+          <p class="section-kicker">EXPERIENCE</p>
+          <h2>A little more about my path.</h2>
         </div>
-        <p>A quick view of the roles that shaped my product and business-analysis experience.</p>
       </div>
 
-      <div class="timeline">
-        <article class="timeline-row reveal">
-          <div class="time">Oct 2025 — Apr 2026</div>
+      <div class="experience-list">
+        <div class="experience-row">
+          <div class="date">2025 — 2026</div>
           <div>
             <h3>Associate Product Analyst</h3>
             <p class="company">Disclosure 360 Solutions Pvt. Ltd.</p>
-            <p>Jira, Scrum meetings, product logic, requirement analysis and PRD documentation.</p>
+            <p class="details">Jira · Scrum meetings · product logic · requirement analysis · PRD documentation</p>
           </div>
-        </article>
-        <article class="timeline-row reveal">
-          <div class="time">Apr 2024 — Sep 2025</div>
+        </div>
+        <div class="experience-row">
+          <div class="date">2024 — 2025</div>
           <div>
             <h3>Product / Business Analyst</h3>
             <p class="company">TravelNew</p>
-            <p>Worked across business and product-facing tasks, translating needs into clearer workflows and digital experiences.</p>
+            <p class="details">Business and product-facing work across requirements, workflows and digital experiences.</p>
           </div>
-        </article>
-        <article class="timeline-row reveal">
-          <div class="time">Earlier experience</div>
+        </div>
+        <div class="experience-row">
+          <div class="date">Earlier</div>
           <div>
-            <h3>Business analysis & technology foundation</h3>
+            <h3>Technology &amp; business analysis foundation</h3>
             <p class="company">CMS IT Services · Wipro</p>
-            <p>Built a foundation in technology, support operations, documentation and structured problem solving.</p>
+            <p class="details">Built a foundation in technology, documentation, support operations and structured problem solving.</p>
           </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section wrap" id="skills">
-      <div class="skill-box reveal">
-        <div>
-          <span class="section-label">04 / Skills</span>
-          <h2>What I work <span>with.</span></h2>
-        </div>
-        <div class="skill-groups">
-          <div><strong>Product</strong><p>Requirements · PRDs · User Stories · Jira · Agile / Scrum · Product Documentation</p></div>
-          <div><strong>Analysis</strong><p>Business Analysis · Process Analysis · Market & Competitor Analysis · Product Thinking</p></div>
-          <div><strong>Tools</strong><p>Excel · Power BI · PowerPoint · Jira · Web tools · AI-assisted workflows</p></div>
         </div>
       </div>
     </section>
 
-    <section class="section wrap" id="contact">
-      <div class="contact-box reveal">
-        <span class="section-label">05 / Contact</span>
-        <h2>Let’s talk about <span>products.</span></h2>
-        <p>For Product Analyst, Business Analyst and Associate Product Manager opportunities, reach me directly.</p>
-        <div class="contact-actions">
-          <a class="button button-dark" href="mailto:imhritiksakpal@gmail.com?subject=Portfolio%20Conversation">imhritiksakpal@gmail.com ↗</a>
-          <a class="button button-light" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a class="button button-light" href="assets/Hritik-Sakpal-Resume.pdf" download>Download resume ↓</a>
+    <section class="contact section" id="contact">
+      <div class="contact-box">
+        <p class="section-kicker">04 / GET IN TOUCH</p>
+        <h2>Have a product problem<br><span>worth solving?</span></h2>
+        <div class="contact-bottom">
+          <a class="email" href="mailto:imhritiksakpal@gmail.com">imhritiksakpal@gmail.com ↗</a>
+          <div class="contact-buttons">
+            <a class="btn btn-light" href="https://www.linkedin.com/in/hritik-sakpal" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a class="btn btn-light" href="assets/Hritik-Sakpal-Resume.pdf" download>Resume ↓</a>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="wrap footer-inner">
-      <span>© <span id="year"></span> Hritik Sakpal</span>
-      <span>Product Analyst · Business Analyst · Product Builder</span>
-      <a href="#home">Back to top ↑</a>
-    </div>
+    <span>© <span id="year"></span> Hritik Sakpal</span>
+    <span>Product Analyst · Product Builder</span>
+    <a href="#home">Back to top ↑</a>
   </footer>
 
-  <script src="script.js?v=4"></script>
+  <script src="script.js?v=5"></script>
 </body>
 </html>
