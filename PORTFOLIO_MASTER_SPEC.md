@@ -295,7 +295,7 @@ The current portfolio code is the active implementation baseline. Future changes
 - The canonical site URL for this GitHub Pages iteration is https://hritiksakpal.github.io/portfolio/.
 
 ### Current Git blob identifiers at lock time
-- index.html: df142b9d35271999a5fff34195206559a49e43d3
+- index.html: d4ae6da722bbf55cc567cdb72825e62f8724a528
 - styles.css: 81a7d7128c6b7f2133c37b40ad66df5ca7184582
 - script.js: 13b1dc8512bd9974781fd03fe54404b54cfb7cb2
 
@@ -325,3 +325,38 @@ Google's current guidance explicitly states that SEO fundamentals remain relevan
 No code or SEO configuration can guarantee that this portfolio will rank first for every query, on every platform, in every country, for every user, or in every AI system. Rankings depend on each platform's own crawling, indexing, relevance, quality, authority and personalization systems.
 
 The operational target is to make the site technically eligible, semantically unambiguous, easy to crawl, rich in genuine first-hand evidence, and consistently connected to Hritik Sakpal's official identities across the web.
+
+
+## 12. NOTIFYING.IN CASE STUDY — SCREENSHOT EVIDENCE LOCK
+
+The Notifying.in case-study page now includes real product screenshots captured from the public product and admin system.
+
+### Screenshot groups
+- Public homepage — explains the product and gives users clear actions.
+- State-filtered public events — shows state filtering, event category, dry-day status and applicability.
+- Mobile homepage — shows the responsive public experience.
+- Mobile notification opt-in — shows the permission/value explanation before subscription.
+- Admin dashboard — shows events, notifications, delivery, traffic and audience/device information.
+- Event Management — shows event search, filtering, creation and status controls.
+- Event authoring — shows event details, dry-day handling, state targeting, notification text, links, images and live preview.
+- Notification Logs — shows notification history and delivery results.
+- Custom notifications — shows message creation, preview and audience/device checks.
+- Ad Manager — shows ad inventory and Google AdSense controls.
+- Ad inventory — shows ad type, placement, schedule, priority, status and actions.
+- Ad targeting — shows state/category targeting, dates, priority and status.
+- Ad setup — shows the ad-type and placement selection step.
+- Ad content — shows headline, description, destination link, creative and preview.
+
+### Caption language rule
+Screenshot descriptions must use simple, direct language that a recruiter can understand quickly. Prefer plain words such as **shows, explains, lets the admin, choose, review, create, filter, send, track**. Avoid unnecessary technical jargon or long descriptions.
+
+### Screenshot implementation
+- The screenshots are embedded directly in notifying-in.html so the case study does not depend on separate image hosting.
+- The gallery uses the existing case-study.css visual system: light background, white cards, 24px radius, restrained shadow, Inter/system typography, and responsive collapse.
+- Do not replace the real screenshots with generic mockups where the screenshot is the evidence for a product claim.
+- Do not expose private data, credentials, API keys, tokens or secrets in screenshots or case-study copy.
+
+### Current case-study code markers
+- notifying-in.html: 43a40e305031545827cdd388a338013cc83a6889
+- case-study.css: 34ed1da4293a4848be90d87beb8905859a78598d
+- Screenshots embedded: 14
