@@ -1,4 +1,4 @@
-# Hritik Sakpal — Product Analyst Portfolio
+# Hritik Sakpal - Product Analyst Portfolio
 
 Canonical portfolio website for **Hritik Sakpal**, positioned as a **Product Analyst, Business Analyst and Product Builder**.
 
